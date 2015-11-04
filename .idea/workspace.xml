@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="accaa841-7fde-4dab-8011-936cc0a40fab" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EmployeeDAOExercise/edu/madisoncollege/enterprisejava/persistence/EmployeeDao.class" afterPath="$PROJECT_DIR$/out/production/EmployeeDAOExercise/edu/madisoncollege/enterprisejava/persistence/EmployeeDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EmployeeDAOExercise/edu/madisoncollege/enterprisejava/EmployeeDriver.class" afterPath="$PROJECT_DIR$/out/production/EmployeeDAOExercise/edu/madisoncollege/enterprisejava/EmployeeDriver.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/madisoncollege/enterprisejava/persistence/EmployeeDao.java" afterPath="$PROJECT_DIR$/src/edu/madisoncollege/enterprisejava/persistence/EmployeeDao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/madisoncollege/enterprisejava/EmployeeDriver.java" afterPath="$PROJECT_DIR$/src/edu/madisoncollege/enterprisejava/EmployeeDriver.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -39,24 +41,6 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - sample@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="sample" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="employees" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -78,13 +62,23 @@
         <entry file="file://$PROJECT_DIR$/src/edu/madisoncollege/enterprisejava/persistence/EmployeeDao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="107" column="16" selection-start-line="107" selection-start-column="16" selection-end-line="107" selection-end-column="48" />
+              <caret line="75" column="36" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="36" />
               <folding>
-                <marker date="1446597591111" expanded="true" signature="571:610" placeholder="select * fro..employees..." />
-                <marker date="1446597591111" expanded="true" signature="1831:1868" placeholder="select * fro..employees..." />
-                <marker date="1446597591111" expanded="true" signature="3110:3140" placeholder="update emplo..." />
-                <marker date="1446597591111" expanded="true" signature="3116:3127" placeholder="insert into ..." />
-                <marker date="1446597591111" expanded="true" signature="3117:3127" placeholder="select * fro..employees..." />
+                <element signature="imports" expanded="true" />
+                <marker date="1446650700273" expanded="true" signature="571:610" placeholder="select * fro..employees..." />
+                <marker date="1446650700273" expanded="true" signature="1809:1846" placeholder="select * fro..employees..." />
+                <marker date="1446650700273" expanded="true" signature="2988:3068" placeholder="insert into ..." />
+                <marker date="1446650700273" expanded="true" signature="2988:3069" placeholder="insert into ..." />
+                <marker date="1446650700273" expanded="true" signature="2988:3089" placeholder="insert into ..." />
+                <marker date="1446650700273" expanded="true" signature="2988:3116" placeholder="insert into ..." />
+                <marker date="1446650700273" expanded="true" signature="2988:3118" placeholder="insert into ..." />
+                <marker date="1446650700273" expanded="true" signature="2988:3139" placeholder="insert into ..." />
+                <marker date="1446650700273" expanded="true" signature="2988:3425" placeholder="insert into ..." />
+                <marker date="1446650700273" expanded="true" signature="2988:3457" placeholder="insert into ..." />
+                <marker date="1446650700273" expanded="true" signature="2988:3475" placeholder="insert into ..." />
+                <marker date="1446650700273" expanded="true" signature="2988:3476" placeholder="insert into ..." />
+                <marker date="1446650700273" expanded="true" signature="3474:3475" placeholder="update emplo..." />
+                <marker date="1446650700273" expanded="true" signature="3836:3871" placeholder="delete from ..." />
               </folding>
             </state>
           </provider>
@@ -93,8 +87,8 @@
       <file leaf-file-name="EmployeeDriver.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/edu/madisoncollege/enterprisejava/EmployeeDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.67460316">
-              <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.50595236">
+              <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -104,7 +98,7 @@
         <entry file="file://$PROJECT_DIR$/src/edu/madisoncollege/enterprisejava/entity/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+              <caret line="78" column="26" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -137,8 +131,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="303" />
-    <option name="y" value="43" />
+    <option name="x" value="273" />
+    <option name="y" value="45" />
     <option name="width" value="1569" />
     <option name="height" value="951" />
   </component>
@@ -165,6 +159,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -187,115 +182,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmployeeDAOExercise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmployeeDAOExercise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmployeeDAOExercise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmployeeDAOExercise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="enterprisejava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmployeeDAOExercise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmployeeDAOExercise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="enterprisejava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="persistence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmployeeDAOExercise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmployeeDAOExercise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="enterprisejava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="entity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmployeeDAOExercise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmployeeDAOExercise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="out" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="production" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmployeeDAOExercise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="madisoncollege" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
@@ -568,6 +456,9 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="Unknown" factoryName="Unknown">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -603,7 +494,8 @@
       <option name="number" value="Default" />
       <updated>1446583619215</updated>
       <workItem from="1446583620997" duration="2568000" />
-      <workItem from="1446595298179" duration="2304000" />
+      <workItem from="1446595298179" duration="2398000" />
+      <workItem from="1446646292391" duration="5224000" />
     </task>
     <task id="LOCAL-00001" summary="update again! 20151103">
       <created>1446584788932</created>
@@ -611,14 +503,20 @@
       <option name="project" value="LOCAL" />
       <updated>1446584788932</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update again! 20151103">
+      <created>1446597614219</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1446597614219</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4872000" />
+    <option name="totallyTimeSpent" value="10190000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="303" y="43" width="1569" height="951" extended-state="0" />
+    <frame x="273" y="45" width="1569" height="951" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -684,13 +582,71 @@
     <entry file="file://$PROJECT_DIR$/src/edu/madisoncollege/enterprisejava/persistence/EmployeeDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="107" column="16" selection-start-line="107" selection-start-column="16" selection-end-line="107" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1446650700273" expanded="true" signature="571:610" placeholder="select * fro..employees..." />
+            <marker date="1446650700273" expanded="true" signature="1809:1846" placeholder="select * fro..employees..." />
+            <marker date="1446650700273" expanded="true" signature="2988:3068" placeholder="insert into ..." />
+            <marker date="1446650700273" expanded="true" signature="2988:3069" placeholder="insert into ..." />
+            <marker date="1446650700273" expanded="true" signature="2988:3089" placeholder="insert into ..." />
+            <marker date="1446650700273" expanded="true" signature="2988:3116" placeholder="insert into ..." />
+            <marker date="1446650700273" expanded="true" signature="2988:3118" placeholder="insert into ..." />
+            <marker date="1446650700273" expanded="true" signature="2988:3139" placeholder="insert into ..." />
+            <marker date="1446650700273" expanded="true" signature="2988:3425" placeholder="insert into ..." />
+            <marker date="1446650700273" expanded="true" signature="2988:3457" placeholder="insert into ..." />
+            <marker date="1446650700273" expanded="true" signature="2988:3475" placeholder="insert into ..." />
+            <marker date="1446650700273" expanded="true" signature="2988:3476" placeholder="insert into ..." />
+            <marker date="1446650700273" expanded="true" signature="3474:3475" placeholder="update emplo..." />
+            <marker date="1446650700273" expanded="true" signature="3836:3871" placeholder="delete from ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/madisoncollege/enterprisejava/EmployeeDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/madisoncollege/enterprisejava/entity/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/madisoncollege/enterprisejava/persistence/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/madisoncollege/enterprisejava/persistence/EmployeeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1446597591111" expanded="true" signature="571:610" placeholder="select * fro..employees..." />
-            <marker date="1446597591111" expanded="true" signature="1831:1868" placeholder="select * fro..employees..." />
-            <marker date="1446597591111" expanded="true" signature="3110:3140" placeholder="update emplo..." />
-            <marker date="1446597591111" expanded="true" signature="3116:3127" placeholder="insert into ..." />
-            <marker date="1446597591111" expanded="true" signature="3117:3127" placeholder="select * fro..employees..." />
+            <element signature="imports" expanded="true" />
+            <marker date="1446650700273" expanded="true" signature="571:610" placeholder="select * fro..employees..." />
+            <marker date="1446650700273" expanded="true" signature="1809:1846" placeholder="select * fro..employees..." />
+            <marker date="1446650700273" expanded="true" signature="2988:3068" placeholder="insert into ..." />
+            <marker date="1446650700273" expanded="true" signature="2988:3069" placeholder="insert into ..." />
+            <marker date="1446650700273" expanded="true" signature="2988:3089" placeholder="insert into ..." />
+            <marker date="1446650700273" expanded="true" signature="2988:3116" placeholder="insert into ..." />
+            <marker date="1446650700273" expanded="true" signature="2988:3118" placeholder="insert into ..." />
+            <marker date="1446650700273" expanded="true" signature="2988:3139" placeholder="insert into ..." />
+            <marker date="1446650700273" expanded="true" signature="2988:3425" placeholder="insert into ..." />
+            <marker date="1446650700273" expanded="true" signature="2988:3457" placeholder="insert into ..." />
+            <marker date="1446650700273" expanded="true" signature="2988:3475" placeholder="insert into ..." />
+            <marker date="1446650700273" expanded="true" signature="2988:3476" placeholder="insert into ..." />
+            <marker date="1446650700273" expanded="true" signature="3474:3475" placeholder="update emplo..." />
+            <marker date="1446650700273" expanded="true" signature="3836:3871" placeholder="delete from ..." />
           </folding>
         </state>
       </provider>
@@ -718,14 +674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/madisoncollege/enterprisejava/entity/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/madisoncollege/enterprisejava/persistence/Database.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -734,24 +682,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/madisoncollege/enterprisejava/entity/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="78" column="26" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/madisoncollege/enterprisejava/persistence/EmployeeDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="107" column="16" selection-start-line="107" selection-start-column="16" selection-end-line="107" selection-end-column="48" />
+          <caret line="75" column="36" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="36" />
           <folding>
-            <marker date="1446597591111" expanded="true" signature="571:610" placeholder="select * fro..employees..." />
-            <marker date="1446597591111" expanded="true" signature="1831:1868" placeholder="select * fro..employees..." />
-            <marker date="1446597591111" expanded="true" signature="3110:3140" placeholder="update emplo..." />
-            <marker date="1446597591111" expanded="true" signature="3116:3127" placeholder="insert into ..." />
-            <marker date="1446597591111" expanded="true" signature="3117:3127" placeholder="select * fro..employees..." />
+            <element signature="imports" expanded="true" />
+            <marker date="1446650700273" expanded="true" signature="571:610" placeholder="select * fro..employees..." />
+            <marker date="1446650700273" expanded="true" signature="1809:1846" placeholder="select * fro..employees..." />
+            <marker date="1446650700273" expanded="true" signature="2988:3068" placeholder="insert into ..." />
+            <marker date="1446650700273" expanded="true" signature="2988:3069" placeholder="insert into ..." />
+            <marker date="1446650700273" expanded="true" signature="2988:3089" placeholder="insert into ..." />
+            <marker date="1446650700273" expanded="true" signature="2988:3116" placeholder="insert into ..." />
+            <marker date="1446650700273" expanded="true" signature="2988:3118" placeholder="insert into ..." />
+            <marker date="1446650700273" expanded="true" signature="2988:3139" placeholder="insert into ..." />
+            <marker date="1446650700273" expanded="true" signature="2988:3425" placeholder="insert into ..." />
+            <marker date="1446650700273" expanded="true" signature="2988:3457" placeholder="insert into ..." />
+            <marker date="1446650700273" expanded="true" signature="2988:3475" placeholder="insert into ..." />
+            <marker date="1446650700273" expanded="true" signature="2988:3476" placeholder="insert into ..." />
+            <marker date="1446650700273" expanded="true" signature="3474:3475" placeholder="update emplo..." />
+            <marker date="1446650700273" expanded="true" signature="3836:3871" placeholder="delete from ..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/18956b08/1bebf3eb-6cd4-41be-aa7b-c556f4bfe564/sample..employees">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/madisoncollege/enterprisejava/EmployeeDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67460316">
-          <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.50595236">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
           <folding />
         </state>
       </provider>
