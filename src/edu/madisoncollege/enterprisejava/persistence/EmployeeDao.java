@@ -47,39 +47,64 @@ public class EmployeeDao {
     public Employee getEmployee(int employeeId) throws SQLException {
         // TODO implement this method
 //        return null;
-        List<Employee> employees = new ArrayList<Employee>();
+            List<Employee> employees = new ArrayList<Employee>();
 
-        Connection connection = Database.getInstance().getConnection();
+            Connection connection = Database.getInstance().getConnection();
 
-        String sql = "select * from employees where emp_id=" + employeeId;
-        Statement selectStatement = connection.createStatement();
+            String sql = "select * from employees where emp_id=" + employeeId;
+            Statement selectStatement = connection.createStatement();
 
-        ResultSet results = selectStatement.executeQuery(sql);
+            ResultSet results = selectStatement.executeQuery(sql);
 
-        while (results.next()) {
-            employeeId = results.getInt("emp_id");
-            String firstName = results.getString("first_name");
-            String lastName = results.getString("last_name");
-            String socialSecurityNumber = results.getString("ssn");
-            String department = results.getString("dept");
-            String room = results.getString("room");
-            String phone = results.getString("phone");
+            while (results.next()) {
+                employeeId = results.getInt("emp_id");
+                String firstName = results.getString("first_name");
+                String lastName = results.getString("last_name");
+                String socialSecurityNumber = results.getString("ssn");
+                String department = results.getString("dept");
+                String room = results.getString("room");
+                String phone = results.getString("phone");
 
-            Employee employee = new Employee(employeeId, firstName, lastName, socialSecurityNumber, department, room, phone);
-            employees.add(employee);
+                Employee employee = new Employee(employeeId, firstName, lastName, socialSecurityNumber, department, room, phone);
+                employees.add(employee);
+            }
+
+            results.close();
+            selectStatement.close();
+
+            return employees.get(0);
+
         }
 
-        results.close();
-        selectStatement.close();
-
-        return employees.get(0);
-
-    }
-
-    public void updateEmployee(Employee employee) {
+    public void updateEmployee(Employee employee)  throws SQLException  {
         // TODO implement this method
+//        Connection connection = Database.getInstance().getConnection();
+//
+//        // use all getters and setters, from UpdateEmployee on existing getEmployee object.
+//        String sql = "update employees set lastName=" + getEmployee(employee.);
+//        Statement selectStatement = connection.createStatement();
+//
+//        ResultSet results = selectStatement.executeQuery(sql);
+//
+//        while (results.next()) {
+//            int employeeId = results.getInt("emp_id");
+//            String firstName = results.getString("first_name");
+//            String lastName = results.getString("last_name");
+//            String socialSecurityNumber = results.getString("ssn");
+//            String department = results.getString("dept");
+//            String room = results.getString("room");
+//            String phone = results.getString("phone");
+//
+//            Employee employee = new Employee(employeeId, firstName, lastName, socialSecurityNumber, department, room, phone);
+//            employees.add(employee);
+//        }
+//
+//        results.close();
+//        selectStatement.close();
 
     }
+
+
     public void deleteStudent(Employee employee) {
         // TODO implement this method
 
